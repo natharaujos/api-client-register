@@ -1,8 +1,9 @@
-#Trabalho de GCC129 - Sistemas Distribuidos
-#ApiRest - ClientRegister
-Professor: Neumar Costa Malheiros
-
-Alunos: Nathan Araújo Silva e Arthur Hauck Dittz
+# Trabalho de GCC129 - Sistemas Distribuidos
+## ApiRest - ClientRegister
+<br>
+#### Professor: Neumar Costa Malheiros
+<br>
+###Alunos: Nathan Araújo Silva e Arthur Hauck Dittz
 
 Para executar o código é necessário a instalação das dependências utilizando o gerenciador de pacotes de sua preferência:
 
