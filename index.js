@@ -5,7 +5,7 @@ const express = require("express");
 const mongoose = require("mongoose");
 const app = express();
 const router = express.Router();
-const tarefa_controller = require("./tarefas-controller");
+const user_controller = require("./user-controller");
 
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
@@ -29,14 +29,14 @@ app.get("/", (req, res) => {
   res.send("Serviço em Execução! 🚀");
 });
 
-router.post("/cadastrar", tarefa_controller.cadastrarTarefa);
-router.get("/listar", tarefa_controller.listarTarefas);
-router.get("/buscar/:id", tarefa_controller.buscarTarefa);
-router.delete("/removeTarefa/:id", tarefa_controller.removerTarefa);
-router.put("/alteraTarefa/:id", tarefa_controller.alterarTarefa);
+router.post("/cadastrar", user_controller.cadastrarUsuario);
+router.get("/listar", user_controller.listarUsuarios);
+router.get("/buscar/:id", user_controller.buscarUsuario);
+router.delete("/removeUser/:id", user_controller.removerUsuario);
+router.put("/alteraUser/:id", user_controller.alterarUsuario);
 app.use("/", router);
 
-let porta = process.env.PORT || 5555;
+let porta = process.env.PORT || 3000;
 
 app.listen(porta, () => {
   console.log("Serviço em execução 🚀 Porta: " + porta);
