@@ -7,8 +7,9 @@ cadastrados no banco de dados
 import requests
 import json
 
-url = "https://localhost:3000/"
+url = "http://localhost:3000/"
 
+requests.post(url + 'cadastrar', {'nome': 'Nathan', 'dataCadastro': '14/12/2022', 'nickname': 'nathraujos'})
 resposta = requests.get(url + "listar", verify="false")
 
 if(resposta.ok):
