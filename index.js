@@ -11,7 +11,7 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
 mongoose.connect(
-  "mongodb+srv://usuariopadrao:qeZbLs9A5k4cQEEM@cluster0.idtey0n.mongodb.net/?retryWrites=true&w=majority",
+  "mongodb+srv://natharaujos:mongoloidedb@cluster0.s2ikgze.mongodb.net/?retryWrites=true&w=majority",
   { useNewUrlParser: true, useUnifiedTopology: true }
 );
 mongoose.Promise = global.Promise;

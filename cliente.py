@@ -2,16 +2,14 @@
 """ 
 Cliente utilizado para listar todos os clientes 
 cadastrados no banco de dados 
-
 """
-
 
 import requests
 import json
 
 url = "https://localhost:3000/"
 
-resposta = requests.get(url + "listar")
+resposta = requests.get(url + "listar", verify="false")
 
 if(resposta.ok):
 
