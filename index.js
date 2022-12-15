@@ -36,7 +36,7 @@ router.post("/cadastrar", task_controller.cadastrarTask);
 router.get("/listar", task_controller.listarTasks);
 router.get("/buscar/:id", task_controller.buscarTask);
 router.put("/tarefas/:id", task_controller.alterarTask);
-router.delete("/removeUser/:id", task_controller.removerTask);
+router.delete("/remover/:id", task_controller.removerTask);
 app.use("/", router);
 
 let porta = process.env.PORT || 3000;

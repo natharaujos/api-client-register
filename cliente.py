@@ -9,7 +9,7 @@ import json
 
 url = "http://localhost:3000/"
 
-requests.post(url + 'cadastrar', {'prazoLimite': '2022/12/06', 'descricao': 'toDo list ufla', 'terminada': 'false'})
+requests.post(url + 'cadastrar', {'prazoLimite': '06/12/22', 'descricao': 'tested', 'terminada': 'false'})
 resposta = requests.get(url + "listar", verify="false")
 
 if(resposta.ok):
