@@ -7,7 +7,7 @@ const app = express();
 dotenv.config();
 mongoose.set('strictQuery', false);
 const router = express.Router();
-const user_controller = require("./user-controller");
+const task_controller = require("./task-controller");
 
 mongoose.connect(
   "mongodb://natharaujos:mongoloidedb@ac-ndxkrwk-shard-00-00.s2ikgze.mongodb.net:27017,ac-ndxkrwk-shard-00-01.s2ikgze.mongodb.net:27017,ac-ndxkrwk-shard-00-02.s2ikgze.mongodb.net:27017/?ssl=true&replicaSet=atlas-wetth8-shard-0&authSource=admin&retryWrites=true&w=majority",
@@ -32,10 +32,11 @@ app.get("/", (req, res) => {
   res.send("Serviço em Execução! 🚀");
 });
 
-router.post("/cadastrar", user_controller.cadastrarUsuario);
-router.get("/listar", user_controller.listarUsuarios);
-router.get("/buscar/:id", user_controller.buscarUsuario);
-router.delete("/removeUser/:id", user_controller.removerUsuario);
+router.post("/cadastrar", task_controller.cadastrarTask);
+router.get("/listar", task_controller.listarTasks);
+router.get("/buscar/:id", task_controller.buscarTask);
+router.put("/tarefas/:id", task_controller.alterarTask);
+router.delete("/removeUser/:id", task_controller.removerTask);
 app.use("/", router);
 
 let porta = process.env.PORT || 3000;
