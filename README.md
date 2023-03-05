@@ -1,9 +1,9 @@
 # Api Client Register
 
 ## Colaboradores
-<a>Arthur Hauck Dittz - 201820370</a>
+<a href="https://github.com/arthurhhdd">Arthur Hauck Dittz - 201820370</a>
 </br>
-<a>Nathan Araújo Silva - 201910762</a>
+<a href="https://github.com/natharaujos">Nathan Araújo Silva - 201910762</a>
 
 <p>Trabalho realizado utilizando <code><span>node.js</span></code> </p>
  
