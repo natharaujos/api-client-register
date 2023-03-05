@@ -4,7 +4,7 @@
 <a>Arthur Hauck Dittz - 201820370</a>
 <a>Nathan Araújo Silva - 201910762</a>
 
-<p>Trabalho realizado utilizando <pre><code><span>node.js</span></code</pre> </p>
+<p>Trabalho realizado utilizando <code><span>node.js</span></code </p>
 
 <p>Para rodar o código só é necessário o comando "node .\index.js"</p>
 
