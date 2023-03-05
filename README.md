@@ -2,6 +2,7 @@
 
 ## Colaboradores
 <a>Arthur Hauck Dittz - 201820370</a>
+</br>
 <a>Nathan Araújo Silva - 201910762</a>
 
 <p>Trabalho realizado utilizando <code><span>node.js</span></code> </p>
