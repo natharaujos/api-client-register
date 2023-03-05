@@ -4,11 +4,12 @@
 <a>Arthur Hauck Dittz - 201820370</a>
 <a>Nathan Araújo Silva - 201910762</a>
 
-<p>Trabalho realizado utilizando <code><span>node.js</span></code </p>
+<p>Trabalho realizado utilizando <code><span>node.js</span></code> </p>
  
  # Funcionamento
 
-<p>Para rodar o código só é necessário o comando "node .\index.js"</p>
+<p>Para rodar o código só é necessário o comando</p>
+ <pre><span>node .\index.js</span></pre>
 
 <p>Também foi feito um cliente usando python para usar a função de listar todas as tarefas</p>
 <p>Para rodar o código do client é necessário o comando "python .\cliente.py"</p>
